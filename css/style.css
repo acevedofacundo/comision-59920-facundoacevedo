@@ -33,6 +33,7 @@ align-items: center;
     gap: 50px;
     padding-right: 50px;
     padding-top: 60px;
+    display: flex;
 }
 .encabezado:hover{
     transform: translateY(10px);
@@ -50,13 +51,27 @@ align-items: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: "Roboto", system-ui;
+    font-size: 50px;
     align-items: center;
     text-align: center;
 
 }
-.banner div{
-    width: 100%;
+
+.titulo2{
+    text-align: center;
+    
 }
+.cambios{
+    width: 100%;
+    background-color: gray;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    height: 500px;
+    align-items: center;
+}
+
 .encabezado{
     text-align: center;
     display: flex;
@@ -76,7 +91,7 @@ align-items: center;
     justify-content: center;
     justify-content: space-between;
     width: 400px;
-    height: 400px;
+    height: 400px; 
 
 }
 .container-productos{
@@ -89,10 +104,9 @@ align-items: center;
     font-family: "Roboto", sans-serif;
     align-items: center;
     text-align: center;
+
 }
-.container-productos h2{
-    display: flex;
-}
+
 .boton-comprar{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -175,6 +189,7 @@ align-items: center;
     margin: auto;
     padding: 30px;
     margin-top: 100px;
+    margin-bottom: 100px;
     border-radius:4px ;
     color: white;
     box-shadow: 7px 13px 37px #000000 ;
@@ -184,6 +199,14 @@ align-items: center;
     font-size: 22px;
     margin-bottom: 20px;
 
+}
+.registro{
+    background-color: gray;
+    height: 800px;
+}
+.registro h1{
+    text-align: center;
+    padding-top: 25px;
 }
 .controls{
     width: 100%;
@@ -215,3 +238,10 @@ align-items: center;
     font-size: 16px;
 }
 
+.nosotros{
+    background-color: gray;
+}
+
+.nosotros__bg{
+    
+}
